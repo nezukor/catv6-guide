@@ -2,7 +2,7 @@
 
 ## Available Categories
 
-- **Combat** — Aim assist, killaura, reach, velocity  
+- **Combat** — Aim assist, reach, velocity  
   `vape.Categories.Combat`
 - **Blatant** — Fly, speed, hitboxes, longjump  
   `vape.Categories.Blatant`
