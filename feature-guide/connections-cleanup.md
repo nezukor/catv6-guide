@@ -12,12 +12,10 @@ end))
 
 MyFeature:Clean(vapeEvents.EntityDamageEvent.Event:Connect(function() end))
 
-# Wrong (Memory Leak)
-
--- Never do this
+-- Wrong (never do this)
 runService.PostSimulation:Connect(function() end)
 
-# Manual Cleanup
+-- Manual Cleanup
 For things that :Clean() cannot handle (hooks, created objects, etc.), restore them manually in the else block:
 LuaFunction = function(callback)
     if callback then
@@ -29,3 +27,4 @@ LuaFunction = function(callback)
         bedwars.SomeUtil.someMethod = oldFunc  -- restore
     end
 end
+```
