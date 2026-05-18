@@ -21,4 +21,4 @@
 - Declare all your local variables at the top of the `run()` block.
 
 > **Tip:** Use a good code editor like **VSCode** with Lua syntax highlighting for a much better experience, Notepad and Notepad++ Also work but VSCode is better.
-
+> **Make sure to backup your changes because catvape updates will remove the features**
