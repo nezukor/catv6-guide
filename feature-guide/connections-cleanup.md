@@ -13,7 +13,7 @@ end))
 MyFeature:Clean(vapeEvents.EntityDamageEvent.Event:Connect(function() end))
 
 # Wrong (Memory Leak)
-```lua
+
 -- Never do this
 runService.PostSimulation:Connect(function() end)
 
