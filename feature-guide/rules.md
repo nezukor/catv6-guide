@@ -3,7 +3,7 @@
 1. Always wrap your code in `run(function() ... end)`
 2. Declare all locals at the top of the `run()` block
 3. Never insert code in the middle of existing features (always append at bottom)
-4. Use `MyFeature:Clean()` for \*\*every\*\* connection
+4. Use `MyFeature:Clean()` for **every** connection
 5. Always restore hooked functions in the `else` block
 6. Never use `task.wait()` inside `PostSimulation` connections
 7. Dropdowns have no `Function` callback — read `.Value` directly
