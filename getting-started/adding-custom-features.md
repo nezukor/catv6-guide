@@ -15,9 +15,9 @@
 
 ## Important Rules for Adding Code
 
-- Always append your code \*\*at the very bottom\*\* of `main.luau`.
+- Always append your code **at the very bottom** of `main.luau`.
 - Never insert code in the middle of existing `run()` blocks (unless you are modifying/rewriting an existing feature).
-- Every custom feature \*\*must\*\* be wrapped inside `run(function() ... end)`.
+- Every custom feature **must** be wrapped inside `run(function() ... end)`.
 - Declare all your local variables at the top of the `run()` block.
 
 > **Tip:** Use a good code editor like **VSCode** with Lua syntax highlighting for a much better experience, Notepad and Notepad++ Also work but VSCode is better.
