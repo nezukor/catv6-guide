@@ -2,7 +2,7 @@
 
 **Complete documentation for creating custom features in CatV6 (Catvape)**
 
-This guide teaches you how to properly add and create your own modules — from basic structure to advanced techniques.
+This guide teaches you how to properly add and create your own modules.
 
 ---
 
