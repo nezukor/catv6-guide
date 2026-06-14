@@ -1,5 +1,5 @@
 # Creating Custom Features
-Every custom feature must follow a strict structure and be placed at the very bottom of `main.luau`.
+Every custom feature must follow a strict structure and be placed at the very bottom of `6872274481.lua`.
 
 ## Key Requirements
 - Always wrap your code in `run(function() ... end)`
